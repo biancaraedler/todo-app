@@ -14,14 +14,17 @@
   <body>
     <h1>todo app</h1>
 
-    <div class="container" id="app">
-      <form id="new-todo-form">
-        <label for="new-todo">new todo name</label>
-        <button>send</button>
-        <button>delete done</button>
-      </form>
-    </div>
+    <div class="container">
+      <input
+        id="create-new-todo"
+        class="task-input"
+        type="text"
+        placeholder="new todo..."
+      />
 
+      <button id="add-todo-btn">add</button>
+      <button id="delete-todo-btn">delete done</button>
+    </div>
     <div class="list-container">
       <ul id="todo-list" class="style-todo"></ul>
     </div>
